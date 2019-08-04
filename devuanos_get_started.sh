@@ -32,6 +32,7 @@ wget https://github.com/dinooz/devuanos/raw/master/04_devuanos_MakeSquashfs.sh
 wget https://github.com/dinooz/devuanos/raw/master/05_devuanos_BiosUEFI_ISO.sh
 wget https://github.com/dinooz/devuanos/raw/master/devuanos_config.txt
 wget https://github.com/dinooz/devuanos/raw/master/devuanos_clean.sh
+wget https://github.com/dinooz/devuanos/blob/master/background.jpg
 
 wget https://git.devuan.org/devuan-packages/debootstrap/raw/suites/ascii/scripts/ceres
 sudo cp ./ceres /usr/share/debootstrap/scripts/
