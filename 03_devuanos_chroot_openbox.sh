@@ -29,6 +29,9 @@ apt-get install -y --no-install-recommends \
     nano && \
 apt-get clean
 
+echo -e "127.0.0.1\tlocalhost" > /etc/hosts
+echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
+
 passwd root
 
 exit
