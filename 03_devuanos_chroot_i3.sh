@@ -25,8 +25,8 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
-    lightdm i3 i3status dmenu i3lock xbacklight feh conky \
-    nano && \
+    i3 i3status dmenu i3lock xbacklight feh conky \
+    slim nano && \
 apt-get clean
 
 echo "exec i3" > /root/.xinitrc
@@ -36,6 +36,8 @@ chmod 755 /root/.xinitrc
 
 echo -e "127.0.0.1\tlocalhost" > /etc/hosts
 echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
+
+mv /background.jpg /usr/share/slim/themes/default/
 
 passwd root
 
