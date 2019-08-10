@@ -25,7 +25,7 @@ sudo mkdir $HOME/$LIVE_BOOT/proc
 sudo mkdir $HOME/$LIVE_BOOT/dev
 sudo mkdir $HOME/$LIVE_BOOT/sys
 
-sudo mount -t proc proc $HOME/$LIVE_BOOT/proc
+sudo mount -t proc /proc $HOME/$LIVE_BOOT/proc
 sudo mount -o bind /dev $HOME/$LIVE_BOOT/dev
 sudo mount -o bind /sys $HOME/$LIVE_BOOT/sys
 
