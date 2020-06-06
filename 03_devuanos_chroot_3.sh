@@ -16,7 +16,7 @@ apt-cache search linux-image
 
 apt-get update && \
 apt-get install -y --no-install-recommends \
-    linux-image-4.9.0-12-amd64 \
+    linux-image-4.19.0-9-amd64 \
     live-boot
 
 apt-get install -y --no-install-recommends \
