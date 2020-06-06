@@ -25,6 +25,7 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     blackbox xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
+    psmisc nginx \
     nano && \
 apt-get clean
 
@@ -32,5 +33,8 @@ echo -e "127.0.0.1\tlocalhost" > /etc/hosts
 echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
 
 passwd root
+# Adding Live User/pwd
+useradd -m live
+echo "live:live" | chpasswd
 
 exit
