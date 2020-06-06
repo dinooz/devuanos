@@ -33,6 +33,7 @@ wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot
 wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_xfce.sh
 wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_mate.sh
 wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_i3.sh
+wget https://github.com/dinooz/devuanos/blob/master/Devuan3_Live.png
 
 wget https://github.com/dinooz/devuanos/raw/master/04_devuanos_MakeSquashfs.sh
 wget https://github.com/dinooz/devuanos/raw/master/05_devuanos_BiosUEFI_ISO.sh
