@@ -30,6 +30,9 @@ wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot_gnome.sh
 # Added Devuan 3.0.0
 wget https://raw.githubusercontent.com/dinooz/devuanos/master/02_devuanos_debootstrap_3.sh
 wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3.sh
+wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_xfce.sh
+wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_mate.sh
+wget https://raw.githubusercontent.com/dinooz/devuanos/master/03_devuanos_chroot_3_i3.sh
 
 wget https://github.com/dinooz/devuanos/raw/master/04_devuanos_MakeSquashfs.sh
 wget https://github.com/dinooz/devuanos/raw/master/05_devuanos_BiosUEFI_ISO.sh
