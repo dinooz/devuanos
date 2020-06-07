@@ -25,6 +25,7 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     blackbox xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
+    psmisc nginx \
     xfce4* task-xfce-desktop \
     nano && \
 apt-get clean
