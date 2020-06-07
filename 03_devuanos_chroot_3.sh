@@ -32,8 +32,10 @@ apt-get clean
 echo -e "127.0.0.1\tlocalhost" > /etc/hosts
 echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
 
-passwd root
-# Adding Live User/pwd
+# passwd root
+echo "root:toor" | chpasswd
+
+# Adding Live User
 useradd -m live
 echo "live:live" | chpasswd
 
