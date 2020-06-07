@@ -40,6 +40,11 @@ echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
 
 mv /background.jpg /usr/share/slim/themes/default/
 
-passwd root
+# passwd root
+echo "root:toor" | chpasswd
+
+# Adding Live User
+useradd -m live
+echo "live:live" | chpasswd
 
 exit
