@@ -25,6 +25,7 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
+    psmisc nginx \
     i3 i3status dmenu i3lock xbacklight feh conky \
     slim nano && \
 apt-get clean
