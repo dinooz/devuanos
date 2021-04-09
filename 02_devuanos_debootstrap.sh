@@ -13,7 +13,7 @@ mkdir $HOME/$LIVE_BOOT
 sudo debootstrap \
 --variant=minbase \
 --include=nano \
-ascii \
+stable \
 $HOME/$LIVE_BOOT/chroot \
 http://pkgmaster.devuan.org/merged/
 

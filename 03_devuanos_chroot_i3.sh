@@ -9,14 +9,13 @@
 # export LIVE_BOOT=LIVE_BOOT64
 source ./devuanos_config.txt
 
-#echo "devuan-live" > /etc/hostname
 echo $DISTRO_NAME > /etc/hostname 
 
 apt-cache search linux-image
 
 apt-get update && \
 apt-get install -y --no-install-recommends \
-    linux-image-4.9.0-9-amd64 \
+    linux-image-amd64 \
     live-boot
 
 apt-get install -y --no-install-recommends \
@@ -25,20 +24,26 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
-    i3 i3status dmenu i3lock xbacklight feh conky \
-    slim nano && \
+    slim i3 i3status dmenu i3lock xbacklight feh conky \
+    psmisc htop nmap wget git \
+    nano && \
 apt-get clean
 
 echo "exec i3" > /root/.xinitrc
 chmod 755 /root/.xinitrc
 
 #echo "user-session=i3" >> /etc/lightdm/lightdm.conf
+mv /background.jpg /usr/share/slim/themes/default/
 
 echo -e "127.0.0.1\tlocalhost" > /etc/hosts
-echo -e "127.0.0.1\t$HOSTNAME" >> /etc/hosts
+echo -e "127.0.0.1\t$DISTRO_HOSTNAME" >> /etc/hosts
 
-mv /background.jpg /usr/share/slim/themes/default/
+# Create live user
+#useradd -m live -s /bin/bash
+# Change user live password to : newpassword
+#echo 'live:live' | chpasswd
 
 passwd root
 
 exit
+
