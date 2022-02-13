@@ -25,7 +25,7 @@ apt-get install -y --no-install-recommends \
     blackbox xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
     xfce4* task-xfce-desktop \
-    psmisc htop nmap wget git \
+    psmisc htop nmap wget git ca-certificates \
     nano && \
 apt-get clean
 

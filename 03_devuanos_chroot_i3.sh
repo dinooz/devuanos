@@ -25,7 +25,7 @@ apt-get install -y --no-install-recommends \
     xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
     slim i3 i3status dmenu i3lock xbacklight feh conky \
-    psmisc htop nmap wget git \
+    psmisc htop nmap wget git ca-certificates \
     nano && \
 apt-get clean
 

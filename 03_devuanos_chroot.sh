@@ -24,7 +24,7 @@ apt-get install -y --no-install-recommends \
     curl openssh-server openssh-client \
     blackbox xserver-xorg-core xserver-xorg xinit xterm \
     screenfetch screen lxterminal vim \
-    psmisc htop nmap wget git \
+    psmisc htop nmap wget git ca-certificates \
     nano && \
 apt-get clean
 
