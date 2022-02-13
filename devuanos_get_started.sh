@@ -13,6 +13,7 @@ wget https://github.com/dinooz/devuanos/raw/master/01_devuanos_pre_reqs.sh
 wget https://github.com/dinooz/devuanos/raw/master/02_devuanos_debootstrap.sh
 
 wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot.sh
+wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot_docker.sh
 wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot_lxde.sh
 wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot_xfce.sh
 wget https://github.com/dinooz/devuanos/raw/master/03_devuanos_chroot_kde.sh
