@@ -9,7 +9,7 @@
 # export LIVE_BOOT=LIVE_BOOT64
 source ./devuanos_config.txt
 
-echo $DISTRO_NAME > /etc/hostname 
+echo $DISTRO_HOSTNAME > /etc/hostname 
 
 apt-cache search linux-image
 
